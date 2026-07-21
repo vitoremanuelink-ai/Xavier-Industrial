@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <!-- Top Arc Path for Text -->
+    <path id="arcTop9001" d="M 45,160 A 115,115 0 0,1 275,160" />
+    <!-- Bottom Arc Path for Text -->
+    <path id="arcBottom9001" d="M 275,160 A 115,115 0 0,1 45,160" />
+    
+    <!-- Soft Drop Shadow -->
+    <filter id="softShadow9001" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#002b66" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Outer Shadow & Base Circle -->
+  <circle cx="160" cy="160" r="145" fill="#ffffff" filter="url(#softShadow9001)" />
+  
+  <!-- Outer Blue Ring -->
+  <circle cx="160" cy="160" r="142" fill="#0047AB" />
+  <circle cx="160" cy="160" r="137" fill="none" stroke="#ffffff" stroke-width="3" />
+  
+  <!-- Inner White Circle -->
+  <circle cx="160" cy="160" r="94" fill="#ffffff" />
+  <circle cx="160" cy="160" r="90" fill="none" stroke="#0047AB" stroke-width="3" />
+
+  <!-- Top Curved Text: ISO 9001 -->
+  <text fill="#ffffff" font-family="'Inter', 'Montserrat', 'Helvetica Neue', sans-serif" font-weight="900" font-size="30" letter-spacing="4">
+    <textPath href="#arcTop9001" startOffset="50%" text-anchor="middle">ISO 9001</textPath>
+  </text>
+
+  <!-- Bottom Curved Text: CERTIFIED -->
+  <text fill="#ffffff" font-family="'Inter', 'Montserrat', 'Helvetica Neue', sans-serif" font-weight="800" font-size="24" letter-spacing="5">
+    <textPath href="#arcBottom9001" startOffset="50%" text-anchor="middle">CERTIFIED</textPath>
+  </text>
+
+  <!-- Decorative Stars on sides -->
+  <polygon points="42,160 45,153 52,153 46,148 48,141 42,145 36,141 38,148 32,153 39,153" fill="#ffffff" />
+  <polygon points="278,160 281,153 288,153 282,148 284,141 278,145 272,141 274,148 268,153 275,153" fill="#ffffff" stroke-width="0" transform="rotate(180 278 160)" />
+
+  <!-- Center Content inside White Circle -->
+  <line x1="100" y1="118" x2="220" y2="118" stroke="#0047AB" stroke-width="3.5" stroke-linecap="round" />
+  <text x="160" y="162" fill="#0047AB" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="36" text-anchor="middle" letter-spacing="1">ISO 9001</text>
+  <line x1="100" y1="178" x2="220" y2="178" stroke="#0047AB" stroke-width="3.5" stroke-linecap="round" />
+</svg>

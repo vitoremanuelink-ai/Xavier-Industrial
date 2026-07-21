@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <!-- Top Arc Path for Text -->
+    <path id="arcTop14001" d="M 54,160 A 106,106 0 0,1 266,160" />
+    <!-- Bottom Arc Path for Text -->
+    <path id="arcBottom14001" d="M 266,160 A 106,106 0 0,1 54,160" />
+    
+    <!-- Soft Subtle Drop Shadow on Scallop -->
+    <filter id="badgeShadow14001" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- 16-Scallop Rosette Outer Edge with White Contour Border & Transparent Background -->
+  <path d="M 298.00,160.00 Q 311.04,190.04 287.50,212.81 Q 288.05,245.56 257.58,257.58 Q 245.56,288.05 212.81,287.50 Q 190.04,311.04 160.00,298.00 Q 129.96,311.04 107.19,287.50 Q 74.44,288.05 62.42,257.58 Q 31.95,245.56 32.50,212.81 Q 8.96,190.04 22.00,160.00 Q 8.96,129.96 32.50,107.19 Q 31.95,74.44 62.42,62.42 Q 74.44,31.95 107.19,32.50 Q 129.96,8.96 160.00,22.00 Q 190.04,8.96 212.81,32.50 Q 245.56,31.95 257.58,62.42 Q 288.05,74.44 287.50,107.19 Q 311.04,129.96 298.00,160.00 Z" 
+        fill="#007a3d" 
+        stroke="#ffffff" 
+        stroke-width="4" 
+        stroke-linejoin="round"
+        filter="url(#badgeShadow14001)" />
+
+  <!-- Inner Thin White Circle -->
+  <circle cx="160" cy="160" r="133" fill="none" stroke="#ffffff" stroke-width="2.8" />
+
+  <!-- Inner White Circle -->
+  <circle cx="160" cy="160" r="82" fill="#ffffff" />
+
+  <!-- Top Curved Text: CERTIFIED -->
+  <text fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="27" letter-spacing="3.5">
+    <textPath href="#arcTop14001" startOffset="50%" text-anchor="middle">CERTIFIED</textPath>
+  </text>
+
+  <!-- Bottom Curved Text: CERTIFIED -->
+  <text fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="27" letter-spacing="3.5">
+    <textPath href="#arcBottom14001" startOffset="50%" text-anchor="middle">CERTIFIED</textPath>
+  </text>
+
+  <!-- Twin Leaves Icon (V-Shape Leaves) -->
+  <g transform="translate(160, 110)">
+    <!-- Left Leaf -->
+    <path d="M 0,-4 C -6,-16 -18,-24 -24,-18 C -28,-12 -22,2 -4,8 Z" fill="#007a3d" />
+    <path d="M -4,6 Q -14,-8 -21,-16" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" />
+
+    <!-- Right Leaf -->
+    <path d="M 0,-4 C 6,-16 18,-24 24,-18 C 28,-12 22,2 4,8 Z" fill="#007a3d" />
+    <path d="M 4,6 Q 14,-8 21,-16" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Center Text: ISO / 14001 -->
+  <text x="160" y="148" fill="#007a3d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="30" text-anchor="middle" letter-spacing="1">ISO</text>
+  <text x="160" y="188" fill="#007a3d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="38" text-anchor="middle" letter-spacing="0">14001</text>
+</svg>

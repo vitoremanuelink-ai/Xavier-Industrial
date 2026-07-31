@@ -1,0 +1,18 @@
+/*
+Theme Name: Xavier Industrial Oficial
+Theme URI: https://xavierindustrial.com.br
+Description: Tema institucional oficial da Xavier Industrial, convertido fielmente do site estatico (HTML/CSS/JS) para WordPress classico. Preserva layout, responsividade, animacoes e conteudo. Deploy automatico via GitHub (WP Pusher / Push-to-Deploy). O CSS de design fica em assets/css/styles.css.
+Author: Xavier Industrial
+Author URI: https://xavierindustrial.com.br
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 7.0
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: xavier-industrial-oficial
+GitHub Theme URI: https://github.com/vitoremanuelink-ai/Xavier-Industrial
+*/
+
+/* O design completo esta em assets/css/styles.css (enfileirado via functions.php). */
+.xi-main { display: block; }

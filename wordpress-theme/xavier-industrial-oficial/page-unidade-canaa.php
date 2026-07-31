@@ -1,0 +1,203 @@
+<?php
+/**
+ * Template Name: Xavier - Unidade-canaa
+ * @package xavier-industrial-oficial
+ */
+get_header(); ?>
+
+<main class="xi-main">
+  <!-- PAGE HEADER -->
+  <header class="page-header" style="position: relative; overflow: hidden;">
+    <video autoplay loop muted playsinline style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translateX(-50%) translateY(-50%); object-fit: cover; z-index: 0; pointer-events: none;">
+      <source src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/evolu%C3%A7%C3%A3o%20da%20obra/Quero_que_seja_como_uma_grava%C3%A7.mp4' ); ?>" type="video/mp4">
+    </video>
+    <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,16,23,0.55) 0%, rgba(22,27,34,0.40) 100%); z-index: 1;"></div>
+    <div class="page-header-bg" style="z-index: 2;"></div>
+    <div class="page-header-content" style="position: relative; z-index: 3;">
+      <div class="xi-hero-badge" style="background: rgba(96, 165, 250, 0.15); border-color: rgba(96, 165, 250, 0.3); color: #60a5fa; margin-bottom: 16px;">EXPANSÃO ESTRATÉGICA</div>
+      <h1 class="page-title">Unidade Canaã dos Carajás, PA</h1>
+      <p class="page-subtitle">Presença regional voltada ao atendimento logístico e operacional de demandas industriais e de mineração no Norte do Brasil.</p>
+    </div>
+  </header>
+
+  <!-- INTRODUÇÃO E LOGÍSTICA -->
+  <section class="page-section">
+    <div class="page-container">
+      <div class="unit-grid-intro">
+        <div>
+          <div class="xi-section-label">PRESENÇA REGIONAL</div>
+          <h2 class="xi-section-title" style="font-size: 32px;">Suporte Técnico e Logístico Local</h2>
+          <p class="xi-section-body" style="font-size: 16px; margin-bottom: 24px;">A implantação da nova unidade da Xavier Industrial em Canaã dos Carajás, PA, visa otimizar a resposta técnica e o suporte logístico às operações industriais e mineradoras da Região Norte.</p>
+          <p class="xi-section-body" style="font-size: 16px; margin-bottom: 0;">A presença local diminui a necessidade de transportes interestaduais de componentes mecânicos pesados, agilizando as etapas de recebimento, avaliação e entrega técnica. O planejamento operacional da unidade é focado no atendimento a demandas de médio e grande porte, com suporte direto às equipes de manutenção locais.</p>
+        </div>
+        
+        <!-- Painel de Progresso Físico da Obra -->
+        <div class="branch-visual-panel" style="min-height: 340px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div class="corner-mark corner-tl"></div>
+          <div class="corner-mark corner-tr"></div>
+          <div class="corner-mark corner-bl"></div>
+          <div class="corner-mark corner-br"></div>
+          
+          <div class="branch-visual-header">
+            <div class="branch-visual-title" style="color: #60a5fa;">
+              <i class="fas fa-images"></i> Andamento da Obra
+            </div>
+            <div class="branch-visual-status" style="color: #60a5fa; background: rgba(96,165,250,0.1); border-color: rgba(96,165,250,0.2);">EM ESTRUTURAÇÃO</div>
+          </div>
+          
+          <div class="branch-carousel-container" style="width: 100%; margin: 12px 0;">
+            <div class="branch-carousel-slides">
+              <!-- Slide 1 -->
+              <div class="branch-slide active">
+                <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/evolução da obra/WhatsApp Image 2026-05-19 at 12.35.59.jpeg' ); ?>" alt="Estrutura inicial do galpão" class="branch-tab-image">
+              </div>
+              <!-- Slide 2 -->
+              <div class="branch-slide">
+                <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/evolução da obra/WhatsApp Image 2026-05-19 at 12.36.00.jpeg' ); ?>" alt="Montagem das colunas" class="branch-tab-image">
+              </div>
+              <!-- Slide 3 -->
+              <div class="branch-slide">
+                <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/evolução da obra/WhatsApp Image 2026-05-19 at 12.36.01 (1).jpeg' ); ?>" alt="Instalação das telhas" class="branch-tab-image">
+              </div>
+              <!-- Slide 4 -->
+              <div class="branch-slide">
+                <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/evolução da obra/WhatsApp Image 2026-05-19 at 12.36.02.jpeg' ); ?>" alt="Acabamento dos escritórios" class="branch-tab-image">
+              </div>
+              <!-- Slide 5 -->
+              <div class="branch-slide">
+                <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/evolução da obra/WhatsApp Image 2026-05-19 at 12.36.04.jpeg' ); ?>" alt="Fachada e pátio administrativo" class="branch-tab-image">
+              </div>
+              <!-- Slide 6 -->
+              <div class="branch-slide">
+                <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/evolução da obra/Expansão e capacidade Industrial - Apresentação Xavier Industrial 1 (19).png' ); ?>" alt="Progresso estrutural e fachada" class="branch-tab-image">
+              </div>
+            </div>
+            
+            <!-- Controles -->
+            <button class="branch-carousel-control prev" onclick="moveBranchSlide(-1)" aria-label="Slide anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="branch-carousel-control next" onclick="moveBranchSlide(1)" aria-label="Próximo slide"><i class="fas fa-chevron-right"></i></button>
+            
+            <!-- Dots -->
+            <div class="branch-carousel-dots">
+              <span class="branch-dot active" onclick="setBranchSlide(0)"></span>
+              <span class="branch-dot" onclick="setBranchSlide(1)"></span>
+              <span class="branch-dot" onclick="setBranchSlide(2)"></span>
+              <span class="branch-dot" onclick="setBranchSlide(3)"></span>
+              <span class="branch-dot" onclick="setBranchSlide(4)"></span>
+              <span class="branch-dot" onclick="setBranchSlide(5)"></span>
+            </div>
+          </div>
+          
+          <div class="branch-visual-footer">
+            <div class="telemetry-item">REGIONAL: <span>CANAÃ (PA)</span></div>
+            <div class="telemetry-item">PRESENÇA: <span>LOGÍSTICA / RECUPERAÇÃO E FABRICAÇÃO</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPACIDADES TÉCNICAS E EQUIPAMENTOS -->
+  <section class="page-section page-section-alt">
+    <div class="page-container">
+      <div class="xi-servicos-header" style="margin-bottom: 48px;">
+        <div class="xi-section-label">SERVIÇOS DISPONÍVEIS</div>
+        <h2 class="xi-section-title">Capacidades Técnicas e Processos</h2>
+        <p class="xi-section-body">Estrutura preparada para a realização de serviços especializados no segmento mecânico-industrial.</p>
+      </div>
+
+      <div class="content-grid content-grid-2">
+        <div class="content-card">
+          <div class="xi-section-label">MECÂNICA E RECUPERAÇÃO</div>
+          <h3>Recuperação e Fabricação Mecânica</h3>
+          <p>Processos voltados ao restabelecimento dimensional e geométrico de componentes industriais de médio e grande porte, garantindo o alinhamento com as tolerâncias exigidas em projeto.</p>
+          <ul class="check-list" style="border-top: none;">
+            <li class="check-item"><i class="fas fa-check"></i> Processos de precisão</li>
+            <li class="check-item"><i class="fas fa-check"></i> Fabricação e recuperação de médio e grande porte</li>
+            <li class="check-item"><i class="fas fa-check"></i> Recuperação de cilindros hidráulicos e pneumáticos</li>
+            <li class="check-item"><i class="fas fa-check"></i> Recuperação de casquilhos, buchas e mancais deslizantes</li>
+          </ul>
+        </div>
+        
+        <div class="content-card">
+          <div class="xi-section-label">FABRICAÇÃO E REVESTIMENTO</div>
+          <h3>Fabricação e Metalização</h3>
+          <p>Processamento e fabricação de componentes mecânicos novos, além da aplicação de revestimentos protetivos metálicos para aumento da resistência superficial das peças.</p>
+          <ul class="check-list" style="border-top: none;">
+            <li class="check-item"><i class="fas fa-check"></i> Metalização de superfícies e componentes</li>
+            <li class="check-item"><i class="fas fa-check"></i> Fabricação de peças conforme desenho ou projeto</li>
+            <li class="check-item"><i class="fas fa-check"></i> Recuperação de subconjuntos mecânicos</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Infográfico de Diferenciais Técnicos e Operacionais -->
+      <div style="margin-top: 56px; text-align: center; margin-bottom: 56px;">
+        <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/Expansão e capacidade Industrial - Apresentação Xavier Industrial 1 (14).png' ); ?>" alt="Diferenciais Operacionais e Capacidade Integrada" style="max-width: 100%; border-radius: 8px; box-shadow: var(--sombra-card); border: 1px solid var(--borda-clara);">
+      </div>
+
+      <!-- CARDS DE RIGOR E PADRÃO -->
+      <div class="unit-features-grid">
+        <div class="unit-feature-card">
+          <div class="unit-feature-icon">
+            <i class="fas fa-qrcode"></i>
+          </div>
+          <h3 class="unit-feature-title">Rastreabilidade</h3>
+          <p class="unit-feature-desc">Controle de recebimento e processamento de materiais com certificação da procedência das ligas.</p>
+        </div>
+
+        <div class="unit-feature-card">
+          <div class="unit-feature-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3 class="unit-feature-title">Garantia de Padrão</h3>
+          <p class="unit-feature-desc">Operação estruturada conforme o sistema de gestão da qualidade estabelecido na empresa.</p>
+        </div>
+
+        <div class="unit-feature-card">
+          <div class="unit-feature-icon">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3 class="unit-feature-title">Equipe Técnica</h3>
+          <p class="unit-feature-desc">Corpo técnico qualificado para atuar em análises dimensionais e conformidade de projeto.</p>
+        </div>
+
+        <div class="unit-feature-card">
+          <div class="unit-feature-icon">
+            <i class="fas fa-truck-moving"></i>
+          </div>
+          <h3 class="unit-feature-title">Agilidade Regional</h3>
+          <p class="unit-feature-desc">Logística dimensionada para otimizar os prazos de recebimento e entrega local de peças.</p>
+        </div>
+      </div>
+
+      <!-- Infográfico de Compromisso com Resultados e Rastreabilidade -->
+      <div style="margin-top: 56px; text-align: center; border-top: 1px solid var(--borda-clara); padding-top: 56px;">
+        <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/public/images/filial-canaa/Expansão e capacidade Industrial - Apresentação Xavier Industrial 1 (15).png' ); ?>" alt="Compromisso com Resultados e Rastreabilidade" style="max-width: 100%; border-radius: 8px; box-shadow: var(--sombra-card); border: 1px solid var(--borda-clara);">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTATO COMERCIAL -->
+  <section class="page-section">
+    <div class="page-container" style="text-align: center; max-width: 680px;">
+      <div class="xi-section-label" style="justify-content: center;">ATENDIMENTO COMERCIAL</div>
+      <h2 class="xi-section-title">Contato Técnico Comercial</h2>
+      <p class="xi-section-body" style="font-size: 16px;">Nossa equipe técnica está disponível para analisar demandas industriais na região de Carajás.</p>
+      
+      <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 16px; align-items: center;">
+        <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="xi-btn-primary">Falar com nossa equipe técnica</a>
+        <div style="font-size: 15px; color: var(--texto-medio); margin-top: 8px;">
+          <i class="fas fa-phone-alt" style="color: var(--azul); margin-right: 8px;"></i> (31) 3662-4553 &nbsp;|&nbsp; 
+          <i class="fas fa-envelope" style="color: var(--azul); margin-right: 8px;"></i> contato@xavierindustrial.com.br
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  
+</main>
+
+<?php get_footer();

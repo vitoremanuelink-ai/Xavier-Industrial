@@ -1,0 +1,317 @@
+<?php
+/**
+ * Template: Home
+ * @package xavier-industrial-oficial
+ */
+get_header(); ?>
+
+<main class="xi-main">
+  <!-- HERO -->
+  <section class="xi-hero">
+    <video autoplay muted loop playsinline class="xi-hero-video">
+      <source src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/img/Video da Hero section.mp4' ); ?>" type="video/mp4">
+    </video>
+    <div class="xi-hero-bg-grid"></div>
+    <div class="xi-hero-content">
+      <div class="xi-hero-badge">Certificada ISO 9001</div>
+      <h1>Referência nacional<br>e qualidade reconhecida</h1>
+      <p>Serviços especializados em recuperação e fabricação,<br>caldeiraria, metalização e muito mais!</p>
+      <div class="xi-hero-actions">
+        <a href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>" class="xi-btn-primary">saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="xi-sobre">
+    <div class="xi-sobre-inner">
+      <div class="xi-sobre-visual">
+        <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/img/Nova img head.png' ); ?>" alt="Xavier Industrial">
+      </div>
+      <div class="xi-sobre-content">
+        <div class="xi-section-label">QUEM SOMOS</div>
+        <h2 class="xi-section-title">A Empresa</h2>
+        <p class="xi-section-body">Empresa brasileira com sede em Minas Gerais, atuando na área de mecânica como fornecedora de peças e equipamentos, fabricados conforme desenho ou projeto; prestadora de serviços de metalização, recuperação de casquilhos, buchas e mancais deslizantes e recuperação de cilindros hidráulicos com mais de dezenove anos de mercado.</p>
+
+        <div class="xi-sobre-stats-grid">
+          <div class="xi-sobre-stat">
+            <h3 class="xi-sobre-stat-n">+<span class="counter" data-target="10000">0</span></h3>
+            <p class="xi-sobre-stat-l">Projetos realizados</p>
+          </div>
+          <div class="xi-sobre-stat">
+            <h3 class="xi-sobre-stat-n">+<span class="counter" data-target="130">0</span></h3>
+            <p class="xi-sobre-stat-l">Clientes atendidos</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 16px;">
+          <a href="<?php echo esc_url( home_url( '/sobre/' ) ); ?>" class="xi-btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="xi-servicos">
+    <div class="xi-servicos-header">
+      <div class="xi-section-label">SERVIÇOS</div>
+      <h2 class="xi-section-title">Nossos Serviços</h2>
+      <p class="xi-section-body">Contamos com uma grande gama de serviços para<br>atender as demandas do mercado</p>
+    </div>
+
+    <div class="xi-servicos-grid">
+      <a href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>" class="xi-servico-card">
+        <div class="xi-servico-img-wrapper">
+          <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/img/Capas/ChatGPT%20Image%208_07_2026,%2017_24_45.png' ); ?>" alt="Recuperação e Fabricação">
+          <div class="xi-servico-overlay">
+            <h3>Recuperação e Fabricação</h3>
+            <span class="xi-servico-btn">Ver Serviços <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+      <a href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>" class="xi-servico-card">
+        <div class="xi-servico-img-wrapper">
+          <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/img/Capas/ChatGPT%20Image%208_07_2026,%2017_24_49.png' ); ?>" alt="Caldeiraria">
+          <div class="xi-servico-overlay">
+            <h3>Caldeiraria</h3>
+            <span class="xi-servico-btn">Ver Serviços <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+      <a href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>" class="xi-servico-card">
+        <div class="xi-servico-img-wrapper">
+          <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/img/Capas/ChatGPT%20Image%208_07_2026,%2017_24_53.png' ); ?>" alt="Metalização">
+          <div class="xi-servico-overlay">
+            <h3>Metalização</h3>
+            <span class="xi-servico-btn">Ver Serviços <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- QUALIDADE & MEIO AMBIENTE / CERTIFICAÇÕES -->
+  <section class="xi-certificacoes-section">
+    <div class="xi-certificacoes-container">
+      
+      <!-- Top Header -->
+      <div class="xi-certificacoes-header">
+        <div class="xi-certificacoes-label">
+          <span class="xi-label-dash"></span> CERTIFICAÇÕES
+        </div>
+        <h2 class="xi-certificacoes-title">Certificações ISO 9001 e ISO 14001</h2>
+        <p class="xi-certificacoes-desc">
+          Na Xavier Industrial, qualidade e responsabilidade ambiental caminham juntas. Nossas certificações ISO 9001 e ISO 14001 comprovam nosso compromisso com a excelência, a sustentabilidade e a melhoria contínua em tudo o que fazemos.
+        </p>
+      </div>
+
+      <!-- Main Grid: Cards + Badges -->
+      <div class="xi-certificacoes-grid">
+        
+        <!-- Cards Container (Side by side) -->
+        <div class="xi-cert-cards-wrapper">
+          
+          <!-- CARD ISO 9001 -->
+          <div class="xi-cert-card">
+            <h3 class="xi-cert-card-title xi-title-blue">ISO 9001 – Gestão da Qualidade</h3>
+            <ul class="xi-cert-list">
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-blue"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Respeitar os compromissos assumidos, visando sempre a satisfação dos clientes;</span>
+              </li>
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-blue"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Buscar a melhoria contínua dos processos e serviços;</span>
+              </li>
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-blue"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Capacitar nossos profissionais;</span>
+              </li>
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-blue"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Atender aos requisitos do sistema de gestão implantado.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CARD ISO 14001 -->
+          <div class="xi-cert-card">
+            <h3 class="xi-cert-card-title xi-title-green">ISO 14001 – Gestão Ambiental</h3>
+            <ul class="xi-cert-list">
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-green"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Reduzir impactos ambientais em nossas operações;</span>
+              </li>
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-green"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Promover o uso consciente de recursos naturais;</span>
+              </li>
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-green"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Prevenir a poluição e gerenciar resíduos de forma responsável;</span>
+              </li>
+              <li class="xi-cert-item">
+                <span class="xi-cert-icon xi-icon-green"><i class="fas fa-check"></i></span>
+                <span class="xi-cert-text">Atender à legislação ambiental e buscar melhoria contínua.</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Right Side Seals / Badges -->
+        <div class="xi-cert-badges-col">
+          <div class="xi-cert-badge-wrapper">
+            <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/img/iso-9001-badge.svg?v=10' ); ?>" alt="Selo Certificação ISO 9001" class="xi-cert-badge-img">
+          </div>
+          <div class="xi-cert-badge-wrapper">
+            <img src="<?php echo esc_url( 'https://cdn.jsdelivr.net/gh/vitoremanuelink-ai/Xavier-Industrial@main/img/iso-14001-badge.svg?v=10' ); ?>" alt="Selo Certificação ISO 14001" class="xi-cert-badge-img">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- NOVA FILIAL -->
+  <section class="branch-section" id="filial-pa">
+    <div class="branch-section-header">
+      <div class="xi-section-label">EXPANSÃO INDUSTRIAL</div>
+      <h2 class="xi-section-title">Nova unidade em Canaã dos Carajás, PA</h2>
+      <p class="xi-section-body">A Xavier Industrial amplia sua presença no Norte do Brasil com uma nova unidade em Canaã dos Carajás, região estratégica para operations industriais e mineradoras.<br><br>A expansão fortalece nossa capacidade de resposta, aproxima a equipe técnica dos clientes da região e amplia a estrutura de atendimento para projetos de médio e grande porte.</p>
+    </div>
+
+    <div class="branch-grid">
+      <!-- Coluna esquerda: cards informativos -->
+      <div class="branch-info-col">
+
+        <div class="branch-card">
+          <div class="branch-card-icon">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <div class="branch-card-text">
+            <strong>Localização estratégica</strong>
+            <p>Presença na região de Carajás, próxima a importantes operações industriais e mineradoras.</p>
+          </div>
+        </div>
+
+        <div class="branch-card">
+          <div class="branch-card-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="branch-card-text">
+            <strong>Resposta técnica regional</strong>
+            <p>Mais agilidade para atendimento, análise e execução de demandas locais.</p>
+          </div>
+        </div>
+
+        <div class="branch-card">
+          <div class="branch-card-icon">
+            <i class="fas fa-industry"></i>
+          </div>
+          <div class="branch-card-text">
+            <strong>Capacidade industrial</strong>
+            <p>Estrutura voltada à recuperação e fabricação de componentes industriais.</p>
+          </div>
+        </div>
+
+        <div class="branch-card">
+          <div class="branch-card-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="branch-card-text">
+            <strong>Padrão Xavier</strong>
+            <p>Operação estruturada conforme o sistema de gestão da qualidade da empresa.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Coluna direita: bloco visual premium (sober map) -->
+      <div class="branch-visual-panel">
+        <div class="corner-mark corner-tl"></div>
+        <div class="corner-mark corner-tr"></div>
+        <div class="corner-mark corner-bl"></div>
+        <div class="corner-mark corner-br"></div>
+
+        <div class="branch-visual-header">
+          <div class="branch-visual-title" style="color: #60a5fa;">
+            <i class="fas fa-route"></i> Conexão Logística
+          </div>
+          <div class="branch-visual-status">UNIDADE EM IMPLANTAÇÃO</div>
+        </div>
+
+        <!-- Conteúdo do Mapa -->
+        <div class="branch-map-container" style="width: 100%;">
+          <svg class="tech-svg-map" viewBox="0 0 400 300">
+            <!-- Grid Industrial Estático -->
+            <line x1="40" y1="50" x2="360" y2="50" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="40" y1="120" x2="360" y2="120" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="40" y1="190" x2="360" y2="190" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="40" y1="260" x2="360" y2="260" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            
+            <line x1="80" y1="30" x2="80" y2="280" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="160" y1="30" x2="160" y2="280" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="240" y1="30" x2="240" y2="280" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="320" y1="30" x2="320" y2="280" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4" />
+
+            <!-- Eixo de Conexão Técnico -->
+            <path class="connecting-line" d="M 260,210 Q 190,140 160,80" fill="none" stroke="rgba(96, 165, 250, 0.4)" stroke-width="1.5" />
+
+            <!-- Matriz MG -->
+            <circle cx="260" cy="210" r="4" fill="#60a5fa" />
+            <circle cx="260" cy="210" r="10" fill="none" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.3" />
+            <text x="272" y="214" fill="rgba(255, 255, 255, 0.6)" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="600">MATRIZ [MG]</text>
+
+            <!-- Filial PA (Canaã dos Carajás) -->
+            <circle cx="160" cy="80" r="4" fill="#60a5fa" />
+            <circle cx="160" cy="80" r="10" fill="none" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.3" />
+            <text x="175" y="84" fill="#60a5fa" font-family="'Barlow Condensed', sans-serif" font-size="13" font-weight="700" letter-spacing="1">CANAÃ DOS CARAJÁS [PA]</text>
+            
+            <!-- Moldura e Identificação Geral -->
+            <rect x="15" y="235" width="130" height="40" rx="3" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+            <text x="25" y="249" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="9">ESCALA REGIONAL: EXPANSÃO</text>
+            <text x="25" y="262" fill="#60a5fa" font-family="monospace" font-size="9">LOGÍSTICA INTEGRADA</text>
+          </svg>
+        </div>
+
+        <div class="branch-visual-footer">
+          <div class="telemetry-item">MATRIZ: <span>MATOZINHOS (MG)</span></div>
+          <div class="telemetry-item">FILIAL: <span>CANAÃ DOS CARAJÁS (PA)</span></div>
+        </div>
+      </div>
+
+      <div class="branch-actions">
+        <a href="<?php echo esc_url( home_url( '/unidade-canaa/' ) ); ?>" class="xi-btn-secondary">Acessar Página da Unidade</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CLIENTES -->
+  <section class="xi-clientes">
+    <div class="xi-clientes-header">
+      <div class="xi-section-label">TRABALHOS</div>
+      <h2 class="xi-section-title">Alguns dos nossos clientes</h2>
+    </div>
+    <div class="xi-clientes-carousel">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo7.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2023/03/votorantim.png" alt="Votorantim">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo2.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2023/03/mizu.png" alt="Mizu">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo6.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo5.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo9.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo1.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo8.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo3.jpg" alt="Cliente">
+      <img class="client-logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/' ) ); ?>2025/04/logo4.jpg" alt="Cliente">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  
+</main>
+
+<?php get_footer();

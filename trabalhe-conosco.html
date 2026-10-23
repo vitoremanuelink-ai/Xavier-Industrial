@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe conosco | Xavier Industrial</title>
+  <link rel="icon" href="https://xavierindustrial.com.br/wp-content/uploads/2023/03/cropped-logo-radape-32x32.png" sizes="32x32" />
+  <meta name="description" content="Envie seu currículo ou mensagem ao Recursos Humanos da Xavier Industrial.">
+  <link rel="stylesheet" href="styles.css?v=14">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="xi-nav">
+    <a href="index.html" class="xi-nav-logo">
+      <img src="https://xavierindustrial.com.br/wp-content/uploads/2023/03/logo-radape.png" alt="Xavier Industrial" height="44">
+    </a>
+    <div class="xi-nav-links">
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre nós</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="equipamentos.html">Equipamentos</a>
+      <a href="index.html#filial-pa">Filial PA</a>
+      <a href="contato.html">Contato</a>
+      <a href="trabalhe-conosco.html" aria-current="page">Trabalhe conosco</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="page-header-content">
+      <h1 class="page-title">Trabalhe conosco</h1>
+      <p class="page-subtitle">Apresente seu perfil profissional à equipe da Xavier Industrial.</p>
+    </div>
+  </header>
+
+  <main class="page-section careers-section">
+    <div class="page-container">
+      <div class="content-grid content-grid-2">
+        <section class="content-card">
+          <div class="xi-section-label">FAÇA PARTE DA NOSSA EQUIPE</div>
+          <h2 class="careers-heading">Seu próximo passo profissional</h2>
+          <p>Se você tem interesse em trabalhar na Xavier Industrial, compartilhe suas informações e, se desejar, anexe seu currículo. Nossa equipe de Recursos Humanos poderá analisar seu perfil.</p>
+          <ul class="careers-facts">
+            <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span><strong>Matriz:</strong> Matozinhos, Minas Gerais</span></li>
+            <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span><strong>Filial:</strong> Canaã dos Carajás, Pará</span></li>
+          </ul>
+          <div class="careers-email-box">
+            <strong>Prefere enviar diretamente por e-mail?</strong>
+            <p>Você também pode enviar sua apresentação e currículo para:</p>
+            <a href="mailto:Rh@xavierindustrial.com.br?subject=Candidatura%20-%20Xavier%20Industrial">Rh@xavierindustrial.com.br</a>
+          </div>
+        </section>
+        <section class="content-card">
+          <div class="xi-section-label">RECURSOS HUMANOS</div>
+          <h2 class="careers-heading">Envie sua candidatura</h2>
+          <p>Informe seus dados para entrar em contato com o RH. Não é necessário haver uma vaga específica anunciada.</p>
+          <form class="contact-form careers-form" action="https://formsubmit.co/Rh@xavierindustrial.com.br" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_subject" value="Candidatura - Site Xavier Industrial">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-group">
+              <label for="rh-nome">Nome completo *</label>
+              <input class="form-control" type="text" name="Nome" id="rh-nome" autocomplete="name" maxlength="120" placeholder="Seu nome completo" required>
+            </div>
+            <div class="form-group">
+              <label for="rh-email">E-mail *</label>
+              <input class="form-control" type="email" name="email" id="rh-email" autocomplete="email" maxlength="160" placeholder="voce@exemplo.com" required>
+            </div>
+            <div class="form-group">
+              <label for="rh-telefone">Telefone / WhatsApp</label>
+              <input class="form-control" type="tel" name="Telefone" id="rh-telefone" autocomplete="tel" maxlength="30" placeholder="(00) 00000-0000">
+            </div>
+            <div class="form-group">
+              <label for="rh-cidade">Cidade / UF *</label>
+              <input class="form-control" type="text" name="Cidade e UF" id="rh-cidade" maxlength="100" placeholder="Ex.: Matozinhos / MG" required>
+            </div>
+            <div class="form-group">
+              <label for="rh-area">Área de interesse</label>
+              <input class="form-control" type="text" name="Area de interesse" id="rh-area" maxlength="120" placeholder="Em qual área deseja atuar?">
+            </div>
+            <div class="form-group">
+              <label for="rh-mensagem">Mensagem (opcional)</label>
+              <textarea class="form-control" name="Mensagem" id="rh-mensagem" maxlength="3000" placeholder="Conte brevemente sobre você e suas experiências."></textarea>
+            </div>
+            <div class="form-group">
+              <label for="rh-curriculo">Currículo (opcional)</label>
+              <input class="form-control" type="file" name="Curriculo" id="rh-curriculo" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" aria-describedby="rh-ajuda-arquivo">
+              <small id="rh-ajuda-arquivo" class="careers-help">Anexe PDF, DOC ou DOCX, com até 10 MB.</small>
+              <small id="rh-erro-arquivo" class="careers-error" role="alert" hidden></small>
+            </div>
+            <label class="careers-consent">
+              <input type="checkbox" name="Ciencia sobre uso dos dados" value="Sim" required>
+              <span>Estou ciente de que minhas informações serão utilizadas para fins de recrutamento e encaminhadas ao RH por meio do serviço externo <a href="https://formsubmit.co/privacy" rel="noopener noreferrer" target="_blank">FormSubmit</a>.</span>
+            </label>
+            <button type="submit" class="xi-btn-primary careers-send">Enviar candidatura <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+            <p class="careers-help">Na primeira utilização, o RH precisará confirmar o endereço de e-mail para ativar o formulário.</p>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="xi-footer">
+    <div class="xi-footer-inner">
+      <div class="xi-footer-col">
+        <a href="index.html">
+          <img src="https://xavierindustrial.com.br/wp-content/uploads/2023/03/logo-radape.png" alt="Xavier Industrial" width="200">
+        </a>
+      </div>
+
+      <div class="xi-footer-col">
+        <h4>Contato</h4>
+        <ul class="xi-footer-list">
+          <li><i class="fas fa-phone-alt xi-footer-icon"></i> (31) 3662-4553</li>
+          <li><i class="fas fa-phone-alt xi-footer-icon"></i> (31) 3712-5462</li>
+          <li><i class="fas fa-phone-alt xi-footer-icon"></i> (31) 3712-5094</li>
+          <li><i class="fas fa-envelope xi-footer-icon"></i> <a href="mailto:contato@xavierindustrial.com.br">contato@xavierindustrial.com.br</a></li>
+        </ul>
+      </div>
+
+      <div class="xi-footer-col">
+        <h4>Endereço</h4>
+        <ul class="xi-footer-list">
+          <li>
+            <i class="fas fa-map-marker-alt xi-footer-icon"></i>
+            <span>Rua João Pereira Lima, 150<br>Dist. Industrial Prefeito Abdom<br>Martins Drumond, Matozinhos<br>MG – CEP: 35.720-000</span>
+          </li>
+        </ul>
+        <h4 style="margin-top: 24px;">Redes sociais</h4>
+        <div class="xi-social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="xi-footer-bottom">
+      <p>© 2025 Xavier Industrial – Rua João Pereira Lima, 150, Distrito Industrial, Matozinhos/MG – CEP: 35.720-000</p>
+    </div>
+  </footer>
+
+<script>
+  (function () {
+    var input = document.getElementById('rh-curriculo');
+    var feedback = document.getElementById('rh-erro-arquivo');
+    if (!input || !feedback) return;
+    input.addEventListener('change', function () {
+      var file = input.files && input.files[0];
+      var invalid = !!file && (file.size > 10 * 1024 * 1024 || !/\.(pdf|doc|docx)$/i.test(file.name));
+      input.setCustomValidity(invalid ? 'Selecione PDF, DOC ou DOCX de até 10 MB.' : '');
+      feedback.textContent = invalid ? 'Escolha um PDF, DOC ou DOCX de até 10 MB.' : '';
+      feedback.hidden = !invalid;
+    });
+  })();
+</script>
+</body>
+</html>

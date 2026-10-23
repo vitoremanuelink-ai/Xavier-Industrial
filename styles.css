@@ -1443,3 +1443,64 @@ textarea.form-control { resize: vertical; min-height: 160px; }
   .page-subtitle { font-size: 17px; }
   .portfolio-card { flex-basis: min(340px, 85vw); }
 }
+
+
+/* Navegação responsiva e seção de carreiras — 23/10/2026 */
+.xi-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.xi-nav-mobile { display:none; position:relative; flex-shrink:0; }
+.xi-nav-mobile summary {
+  display:flex; justify-content:center; align-items:center; width:46px; height:44px;
+  background:var(--azul-suave); color:var(--azul); border:1px solid var(--borda);
+  border-radius:8px; list-style:none; cursor:pointer; box-sizing:border-box;
+}
+.xi-nav-mobile summary::-webkit-details-marker { display:none; }
+.xi-nav-mobile summary:focus-visible { outline:3px solid var(--azul-hover); outline-offset:3px; }
+.xi-nav-mobile[open] summary { background:var(--azul); color:#fff; }
+.xi-nav-mobile-links {
+  display:grid; gap:3px; position:absolute; right:0; top:calc(100% + 13px);
+  width:min(315px, calc(100vw - 24px)); max-height:calc(100dvh - 90px); overflow-y:auto;
+  padding:10px; box-sizing:border-box; background:#fff; border:1px solid var(--borda);
+  box-shadow:0 16px 42px rgba(5,34,74,.14); border-radius:10px; z-index:1010;
+}
+.xi-nav-mobile-links a {
+  display:block; padding:13px 14px; border-radius:6px;
+  color:var(--texto-escuro); font-size:16px; font-weight:600; text-decoration:none;
+}
+.xi-nav-mobile-links a:hover, .xi-nav-mobile-links a:focus-visible,
+.xi-nav-mobile-links a[aria-current="page"] { background:var(--azul-suave); color:var(--azul); }
+@media (max-width:1200px) {
+  nav.xi-nav .xi-nav-links { display:none; }
+  .xi-nav-mobile { display:block; }
+}
+/* Formulário de candidaturas */
+.careers-section { background:var(--cinza-claro); }
+.careers-section .content-grid { align-items:start; gap:26px; }
+.careers-section .content-card { min-width:0; box-sizing:border-box; }
+.careers-heading {
+  font-family:'Roboto Slab',serif; color:var(--texto-escuro); line-height:1.3;
+  font-size:clamp(23px,3vw,29px); margin:14px 0 22px;
+}
+.careers-facts { list-style:none; padding:0; display:grid; gap:18px; margin:28px 0; }
+.careers-facts li { display:flex; gap:12px; line-height:1.5; }
+.careers-facts i { color:var(--azul); padding-top:4px; }
+.careers-email-box { background:var(--azul-suave); padding:22px; border-radius:8px; overflow-wrap:anywhere; }
+.careers-email-box p { font-size:14px; margin:10px 0; line-height:1.6; }
+.careers-email-box a { color:var(--azul); font-weight:700; }
+.careers-form { margin-top:22px; gap:20px; }
+.careers-form .form-control { width:100%; max-width:100%; box-sizing:border-box; }
+.careers-form input[type="file"] { font-size:14px; padding:14px; }
+.careers-form textarea.form-control { min-height:115px; }
+.careers-help { display:block; font-size:13px; color:var(--texto-medio); line-height:1.6; margin:6px 0 0; }
+.careers-error { display:block; color:#9d2525; font-size:13px; }
+.careers-error[hidden] { display:none; }
+.careers-consent {
+  display:flex; gap:12px; align-items:flex-start; font-size:13px; color:var(--texto-medio);
+  line-height:1.6; cursor:pointer;
+}
+.careers-consent input { margin:3px 0 0; width:17px; height:17px; flex:0 0 17px; accent-color:var(--azul); }
+.careers-consent a { color:var(--azul); }
+.careers-send { border:none; font:inherit; font-weight:700; cursor:pointer; text-align:center; }
+@media (max-width:768px) {
+  .careers-section .content-card { padding:24px; }
+  .careers-section .content-grid { gap:20px; }
+}

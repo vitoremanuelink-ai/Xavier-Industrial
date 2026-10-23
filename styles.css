@@ -1396,3 +1396,50 @@ textarea.form-control { resize: vertical; min-height: 160px; }
   }
 }
 
+
+
+/* Mobile corrections 2026-10-23: home filial, unidade Canaã e páginas internas */
+.branch-grid > *, .branch-info-col > *, .unit-grid-intro > *, .content-grid > * { min-width: 0; }
+.content-card .check-item, .xi-footer-list a { overflow-wrap: anywhere; }
+
+@media (max-width: 992px) {
+  .unit-grid-intro { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+}
+@media (max-width: 768px) {
+  /* Home: prevent the CTA spanning two columns from creating a ghost column. */
+  .branch-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .branch-info-col { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .branch-card { width: 100%; box-sizing: border-box; padding: 24px; }
+  .branch-actions { grid-column: 1 / -1; margin-top: 0; }
+  .branch-actions .xi-btn-secondary {
+    width: 100%; box-sizing: border-box; text-align: center; padding: 16px 14px;
+  }
+
+  /* Panels, footer labels, maps and image carousel. */
+  .branch-visual-panel {
+    box-sizing: border-box; width: 100%; min-height: 340px; padding: 18px;
+  }
+  .branch-visual-header { flex-wrap: wrap; gap: 12px; }
+  .branch-visual-footer { flex-wrap: wrap; gap: 12px; }
+  .branch-map-container { min-width: 0; padding: 16px 0; }
+  .tech-svg-map { height: auto; max-height: 260px; }
+
+  /* Canaã: text + slideshow stack instead of cramped half columns. */
+  .unit-grid-intro { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .branch-carousel-container, .branch-carousel-slides, .branch-slide {
+    min-width: 0; max-width: 100%;
+  }
+  .branch-carousel-slides { min-height: 190px; }
+  .branch-tab-image { max-width: 100%; height: auto; }
+  .branch-carousel-dots {
+    max-width: 100%; flex-wrap: wrap; justify-content: center;
+  }
+  .branch-carousel-control.prev { left: 0; }
+  .branch-carousel-control.next { right: 0; }
+
+  /* Interior pages: prevent oversize contact cards & headings. */
+  .content-card { box-sizing: border-box; padding: 24px; }
+  .page-title { font-size: clamp(32px, 9vw, 42px); overflow-wrap: break-word; }
+  .page-subtitle { font-size: 17px; }
+  .portfolio-card { flex-basis: min(340px, 85vw); }
+}

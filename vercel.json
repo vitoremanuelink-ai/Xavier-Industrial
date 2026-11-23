@@ -1,3 +1,75 @@
 {
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "redirects": [
+    {
+      "source": "/sobre",
+      "destination": "/sobre.html",
+      "permanent": true
+    },
+    {
+      "source": "/sobre/",
+      "destination": "/sobre.html",
+      "permanent": true
+    },
+    {
+      "source": "/servicos",
+      "destination": "/servicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/servicos/",
+      "destination": "/servicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/equipamentos",
+      "destination": "/equipamentos.html",
+      "permanent": true
+    },
+    {
+      "source": "/equipamentos/",
+      "destination": "/equipamentos.html",
+      "permanent": true
+    },
+    {
+      "source": "/contato",
+      "destination": "/contato.html",
+      "permanent": true
+    },
+    {
+      "source": "/contato/",
+      "destination": "/contato.html",
+      "permanent": true
+    },
+    {
+      "source": "/trabalhe-conosco",
+      "destination": "/trabalhe-conosco.html",
+      "permanent": true
+    },
+    {
+      "source": "/trabalhe-conosco/",
+      "destination": "/trabalhe-conosco.html",
+      "permanent": true
+    },
+    {
+      "source": "/unidade-canaa",
+      "destination": "/unidade-canaa.html",
+      "permanent": true
+    },
+    {
+      "source": "/unidade-canaa/",
+      "destination": "/unidade-canaa.html",
+      "permanent": true
+    },
+    {
+      "source": "/iso",
+      "destination": "/iso.html",
+      "permanent": true
+    },
+    {
+      "source": "/iso/",
+      "destination": "/iso.html",
+      "permanent": true
+    }
+  ]
 }
